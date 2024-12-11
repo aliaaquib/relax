@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 4rem;
+  height: auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  font-style: unset;
+}
+
+.footer span {
+  font-style: italic;
+}

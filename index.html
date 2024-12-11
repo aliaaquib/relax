@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@imaaquibali" />
+  <meta name="twitter:creator" content="@imaaquibali" />
+  <meta name="twitter:title" content="Relax." />
+  <meta name="twitter:description"
+    content="Relax, reset, and feel better. Customize your break with calming sounds and meditation. Relax, your go-to for daily peace." />
+  <meta name="twitter:image" content="https://sit.potato.horse/social.png" />
+  <meta name="description" property="og:description"
+    content="Relax, reset, and feel better. Customize your break with calming sounds and meditation. Relax, your go-to for daily peace." />
+  <meta name="image" property="og:image" content="" />
+  <meta name="author" content="Aaquib Ali" />
+
+  <link rel="shortcut icon" type="image/svg" sizes="any" href="/src/assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="/src/assets/apple-touch-icon-180x180.png" />
+
+
+  <link rel="canonical" href="https://relaxnow.vercel.app" />
+  <title>Relax</title>
+  <script async defer data-website-id="b159f6ca-ab74-442e-9b0f-b31fca4284f5"
+    data-domains="relaxnow.vercel.app" src="https://aaquibali.vercel.app"></script>
+  <style>
+    html {
+      background-color: #F5F1E7;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+    window.addEventListener("resize", () => {
+      // We execute the same script as before
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+    });
+  </script>
+  <script src="/src/index.tsx" type="module"></script>
+</body>
+
+</html>

@@ -1,5 +1,18 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="512" height="512" fill="black"/>
-<circle cx="255.5" cy="256.5" r="173.5" stroke="#EBD7C0" stroke-width="24"/>
-<circle cx="255.5" cy="256.5" r="92.5" fill="#EFD6BD"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.5 41.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e3e3e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M24.04,5.74c-.48,4.31-1.69,5.17-4.97,5.27s-4.83-1.46-4.25-4.04C16.39.04,17.94.47,19.74.1c3.21-.66,4.69,2.11,4.29,5.64Z"/>
+      <path class="cls-1" d="M38.4,33.84c-.44,3.82-8.3,8.13-19.1,7.92-9.92-.19-21.26-8.61-19.01-11.78,3.02-4.25,13.27,1.7,17.38,1.1,16.03-2.34,21.66-5.27,20.73,2.76Z"/>
+      <path class="cls-1" d="M31.73,20.41c3.24,5.15-3.8,5.72-8.52,8.26s-17.64-1.82-15.4-6.76c2.79-6.17,4.39-11.46,11.47-9.14,4.06,1.33,2.75-7.77,12.45,7.65Z"/>
+    </g>
+  </g>
 </svg>
